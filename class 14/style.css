@@ -1,0 +1,180 @@
+.one{
+    background-color: magenta;
+    width: 600px;
+    height: 200px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: stretch;
+}
+.one-child{
+    background-color:yellowgreen;
+    width: 100px;
+    /* height: 100px; */
+    margin: 0px 0px 0px 20px;
+}
+.two{
+    background-color: aqua;
+    width: 600px;
+    height: 200px;
+    /* margin: 20px 0px 0px 0px; */
+    display: flex;
+    flex-direction: column;
+}
+.two-child{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 0px 20px;
+}
+.three{
+    width: 100%;
+    height: 40rem;
+    background-color: orange;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+}
+.child-1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.child-2{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.child-3{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.child-4{
+background-color: magenta;
+height: 100px;
+width: 100px;
+border: 1px solid black;
+font-size: 32px;
+}
+.child-5{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.four{
+    width: 100%;
+    background-color: orange;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 10px;
+}
+.four > .child-1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+    display: flex;
+    align-self: center;
+}
+.four > .child-2{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.four >.child-3{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.four > .child-4{
+background-color: magenta;
+height: 100px;
+width: 100px;
+border: 1px solid black;
+font-size: 32px;
+}
+.four > .child-5{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.five{
+    width: 100%;
+    background-color: orange;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.five > .child-1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.five > .child-2{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.five >.child-3{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.five > .child-4{
+background-color: magenta;
+height: 100px;
+width: 100px;
+border: 1px solid black;
+flex: 2;
+font-size: 32px;
+}
+.five > .child-5{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 32px;
+    flex: 1;
+}
+@media only screen and (max-width: 425px) {
+    .five > .child-1{
+        width: 100%;
+    }
+    .five > .child-2{
+        width: 100%;
+    }
+    .five > .child-3{
+        width: 100%;
+    }    .five > .child-4{
+        width: 100%;
+    }    .five > .child-5{
+        width: 100%;
+    }
+}

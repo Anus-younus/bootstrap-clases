@@ -1,0 +1,8 @@
+.row{
+     background-color: orange;
+}
+.col{
+    background-color: black;
+    color: #fff;
+    border: 1px solid red;
+}

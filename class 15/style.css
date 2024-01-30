@@ -1,0 +1,48 @@
+.body{
+    background-color: #0045d0;
+}
+.navbar{
+    background-color: #0065c3;
+}
+.nav-item{
+    margin-right: 1.5rem;
+    font-family: sofia pro black Arial, Helvetica, sans-serif;
+    font-size: .775rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+.nav-item > a{
+    color: #fff !important;    
+}
+.navbar-brand {
+    margin-right: 50px;
+}
+.btn{
+    border: 2px solid white;
+    height: 35pxpx;
+    font-size: 13px;
+    border-radius: 30px;
+    background-color: #0065c3;
+    font-weight: bold;
+    width: 200px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #0065c3;
+}
+.navbar-toggler{
+    color: #fff;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(228, 224, 227);
+  } 
+
+@media only screen and (max-width: 992px){
+    .collapse{
+              text-align: center;
+    }
+}
